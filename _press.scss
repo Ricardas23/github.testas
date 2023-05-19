@@ -1,0 +1,202 @@
+@use 'responsive';
+
+.press-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 120px;
+
+    @include responsive.screen-sm {
+        width: 364px;
+        height: 117px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 64px;
+        margin-left: 32px;
+        margin-right: 32px;
+
+         }
+}
+
+.press-image{
+    width: 132.72px;
+    height: 46.21px;
+}
+
+.press-image:nth-child(2){
+    @include responsive.screen-sm {
+        display: none;
+         }
+}
+
+.showcase-container {
+    margin-top: 120px;
+    margin-left: 160px;
+    margin-right: 160px;
+
+    @include responsive.screen-sm {
+        margin-top: 56px;
+        margin-left: 0;
+        margin-right: 0;
+         }
+}
+
+.h3{
+    width: 620px;
+    height: 48px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+
+    @include responsive.screen-sm {
+        margin-left:32px ;
+        width: 364px;
+        height: 96px;
+         }
+}
+
+.p{
+    margin-top: 24px;
+    width: 782px;
+    height: 30px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #555555;
+    
+    @include responsive.screen-sm {
+        margin-left:32px ;
+        width: 364px;
+        height: 90px;
+         }
+}
+
+.showcese-shop-container{
+    width: 290px;
+    height: 420px;
+
+    @include responsive.screen-sm {
+        margin-top: 40px;
+        margin-left: 32px;
+        margin-right: 0;
+        max-width: 428px;
+         }
+}
+
+.nft-descrition {
+    margin-top: -4px;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nft-image-first, .nft-image-second, .nft-image-third, .nft-image-fourth{
+    width: 290px;
+    height: 278px;
+}
+
+.nft-image-second,
+.nft-image-third,
+.nft-image-fourth{
+    @include responsive.screen-sm {
+        // display: none;
+         }
+}
+
+.first p:nth-child(1){
+    width: 140px;
+    height: 30px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    padding: 24px 0 0 24px;
+    color: #FF8139;
+}
+
+.first p:nth-child(2){
+    width: 132px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: #111111;
+    padding: 0 0 0 24px;
+    margin-top: 18px;
+}
+
+.first p:nth-child(3){
+    width: 65px;
+    height: 30px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #777777;
+    padding: 14px 0 24px 24px ;
+    text-align: center;
+}
+
+.second {
+    text-align: end;
+}
+
+.second p:nth-child(1){
+    width: 140px;
+    height: 30px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    padding: 24px 24px 0 0;
+    color: #777777;
+}
+
+.second p:nth-child(2){
+    width: 140px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: #111111;
+    padding: 0 24px 0 0;
+    margin-top: 18px;
+}
+
+.second p:nth-child(3){
+    width: 140px;
+    height: 30px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #777777;
+    padding: 12px 24px 0 0; 
+}
+
+.etherium-img{
+    height: 19px;
+    margin-right: 7px;
+}
+
+.wrapper-shop {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+
+    @include responsive.screen-sm {
+        column-gap: 10px;
+        max-width: 428px;
+         }
+}

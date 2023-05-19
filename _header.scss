@@ -1,0 +1,49 @@
+@use 'responsive';
+
+.logo {
+    width: 198px;
+    height: 40px;
+    margin-top: 60px;
+    margin-left: 160px;
+    
+    @include responsive.screen-sm {
+      margin-left: 32px;
+      margin-top: 34px;
+    }
+  }
+  
+  .navbar {
+    display: flex;
+    column-gap: 28px;
+    height: 22px;
+
+    @include responsive.screen-sm {
+      display: none;
+    }
+  }
+  
+  .navbar li{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    list-style: none;
+  }
+
+  .navbar li:nth-child(4){
+    color: #FF3998 ;
+  }
+  
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  
+  .navigation-bar {
+    margin-top: 78.22px;
+    margin-right: 160px;
+  }
+  

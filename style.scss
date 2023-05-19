@@ -1,0 +1,16 @@
+@use 'header';
+@use 'hero';
+@use 'upsell';
+@use 'press';
+@use 'footer-upsell';
+@use 'footer';
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}

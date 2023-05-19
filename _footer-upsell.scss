@@ -1,0 +1,119 @@
+@use 'responsive';
+
+.footer-upsell-cotainer{
+    display: flex;
+    width: 50%;
+    margin-left: 160px;
+    // margin-top: 120px;
+
+    @include responsive.screen-sm {
+        margin-left: 32px;
+         }
+    
+}
+
+.text-wrap{
+    margin-top: 120px;
+
+    @include responsive.screen-sm {
+        margin-top: 64px;
+         }
+}
+
+.first-text{
+    width: 651px;
+    height: 19px;
+    color:#FF3998 ;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    @include responsive.screen-sm {
+        width: 651px;
+        height: 19px;
+         }
+}
+
+.h4{
+    margin-top: 24px;
+    width: 620px;
+    height: 68px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 68px;
+
+    @include responsive.screen-sm {
+        width: 274px;
+        height: 204px;
+         }
+}
+
+.about-info{
+    margin-top: 24px;
+    width: 537px;
+    height: 60px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #555555;
+    
+    @include responsive.screen-sm {
+        width: 207px;
+        height: 120px;
+         }
+}
+
+.nft-green-image{
+    width: 50%;
+
+    @include responsive.screen-sm {
+        width: 206px;
+        height: 467px;
+         }
+}
+
+.green-image{
+    margin-left: 202px;
+    margin-top: 85px;
+
+    @include responsive.screen-sm {
+        width: 206px;
+        height: 467px;
+        margin-left: -430px;
+        margin-top: 162px;
+         }
+}
+
+.breakline-top{
+    margin-top: 120px;
+    margin-left: 160px;
+    margin-right: 160px;
+    color: lightgray;
+
+    @include responsive.screen-sm {
+        width: 428px;
+        margin-top: 92px;
+        margin-left: 0;
+        margin-right: 0;
+         }
+}
+
+.breakline-bottom{
+    margin-left: 160px;
+    margin-right: 160px;
+    color: lightgray;
+
+    @include responsive.screen-sm {
+        width: 428px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 57px;
+         }
+}

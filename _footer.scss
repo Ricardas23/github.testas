@@ -1,0 +1,135 @@
+@use 'responsive';
+
+.footer-container {
+    display: flex;
+
+    @include responsive.screen-sm {
+        display: flex;
+        flex-wrap: wrap;
+         }
+}
+
+.left-side{
+    margin-top: 120px;
+    width: 50%;
+    margin-left: 160px;
+
+    @include responsive.screen-sm {
+        margin-top: 64px;
+        margin-left: 32px;
+        width: 233px;
+        height: 136px;
+         }
+}
+
+.left-side ul{
+    display: flex;
+    margin-top: 32px;
+    column-gap: 16px;
+    list-style: none;
+}
+
+.footer-logo{
+    width: 198px;
+    height: 36px;
+}
+
+.left-text{
+    margin-top: 30px;
+    width: 233px;
+    height: 20px;
+    font-family: 'Inter', sans-serif;    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #555555;
+}
+
+.right-side{
+    display: flex;
+    width: 590px;
+    height: 139px;
+    column-gap: 106px;
+    margin-top: 120px;
+    margin-right: 160px;
+
+    @include responsive.screen-sm {
+        width: 260px;
+        height: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 64px;
+        margin-left: 34px;
+    }
+}
+
+.about, .nft, .contact, .social{
+    width: 59px;
+    height: 92px;
+    list-style: none;
+    line-height: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #555555;
+}
+
+.information-footer{
+    padding-bottom: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #555555;
+}
+
+.copyright-text {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 191px;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-bottom: 71px;
+
+    @include responsive.screen-sm {
+        width: 286px;
+        height: 20px;
+        margin-left: 32px;
+        margin-right: 0;
+        margin-top: 0;
+         }
+}
+
+.copyrights, .launching{
+    width: 286px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #999999; 
+    
+    @include responsive.screen-sm {
+        width: 286px;
+        height: 20px;
+         }
+}
+
+.launching{
+    @include responsive.screen-sm {
+        display: none;
+         }
+}
+
+// .social-block, .nft-block, .contack-block,{
+//     @include responsive.screen-sm {
+//         width: 260px;
+//         height: 400px;
+//     }
+// }

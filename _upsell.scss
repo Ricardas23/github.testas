@@ -1,0 +1,87 @@
+@use 'responsive';
+
+.background-img {
+    width: 100%;
+    height: 320px;
+    padding-left: 80px;
+    padding-right: 160px;
+    margin-top: 182px;
+    object-fit: cover;
+
+    // @include responsive.screen-sm {
+    //     width: 428px;
+    //     height: 326px;
+    //     margin-left: 0;
+    //     margin-right: 0;
+    //   }
+    }
+
+.upsell-text{
+    height: 320px;
+    padding-left: 160px;
+    margin-top: 182px;
+    background-image:url(/nft\ page\ images/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-radius: 20px;
+
+    @include responsive.screen-sm {
+        margin-top: 80px;
+        padding: 0;
+        border-radius: 0px;
+        background-image:url(/nft\ page\ images/background.png)
+      }
+}
+
+.upsell-container {
+    margin-left: 160px;
+    object-fit: cover;
+    margin-right: 160px;
+
+    @include responsive.screen-sm {
+        width: 428px;
+        height: 326px;
+        margin-left: 0;
+        margin-right: 0;
+         }
+    }
+
+.h2{
+    font-family: 'Inter', sans-serif;
+    padding-top: 154px;
+    width: 620px;
+    height: 48px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+
+    @include responsive.screen-sm {
+        width: 364px;
+        height: 172px;
+        margin-left: 32px;
+        margin-right: 32px;
+        padding-top: 122px;
+         }
+}
+
+.text{
+    padding-top: 60px;
+    width: 537px;
+    height: 30px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+
+    @include responsive.screen-sm {
+        width: 364px;
+        height: 60px;
+        margin-left: 32px;
+        margin-right: 32px;
+
+         }
+}

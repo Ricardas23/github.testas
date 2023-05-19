@@ -1,0 +1,118 @@
+@use 'responsive';
+
+.hero-container {
+    width: 50%;
+    height: 483px;
+    margin-top: 205.56px;
+    margin-left: 160px;
+
+    @include responsive.screen-sm {
+        margin-left: 32px;
+        margin-top: 116px;
+        max-width: 428px;
+      }
+    }
+
+.hero-top-text{
+    width: 169px;
+    height: 19px;
+    color:#FF3998 ;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.h1{
+    width: 620px;
+    height: 232px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 116px;
+    color: #111111;
+    margin-top: 20px;
+
+    @include responsive.screen-sm {
+        margin-top: 24px;
+        width: 274px;
+        height: 116px;
+        font-size: 48px;
+        line-height: 58px;
+      }
+}
+
+.hero-paragraph{
+    width: 537px;
+    height: 60px;
+    margin-top: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+
+    @include responsive.screen-sm {
+        margin-top: 24px;
+        width: 274px;
+        height: 120px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 150%;
+        color: #555555;
+    }
+  
+}
+
+.Sign-up-button{
+    margin-top: 41px;
+    width: 188px;
+    height: 75px;
+    // border-radius: 40px;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+    background-color: white;
+}
+
+.Sign-up-text{
+    width: 76px;
+    height: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #111111;
+}
+
+.hero-wrap {
+    display: flex;
+    }
+
+.image {
+    width: 50%;
+    height: 483px;
+    margin-top: 187.56px;
+
+    @include responsive.screen-sm {
+        margin-top: 0px ;
+    }
+    }
+
+.hero-nft{
+    width: 680px;
+    height: 483px;
+
+    @include responsive.screen-sm {
+        width: 328.6px;
+        height: 400px;
+    }
+  
+}
+    

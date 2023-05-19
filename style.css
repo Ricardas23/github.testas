@@ -1,0 +1,718 @@
+.logo {
+  width: 198px;
+  height: 40px;
+  margin-top: 60px;
+  margin-left: 160px;
+}
+@media screen and (max-width: 428px) {
+  .logo {
+    margin-left: 32px;
+    margin-top: 34px;
+  }
+}
+
+.navbar {
+  display: flex;
+  -moz-column-gap: 28px;
+       column-gap: 28px;
+  height: 22px;
+}
+@media screen and (max-width: 428px) {
+  .navbar {
+    display: none;
+  }
+}
+
+.navbar li {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  list-style: none;
+}
+
+.navbar li:nth-child(4) {
+  color: #FF3998;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-bar {
+  margin-top: 78.22px;
+  margin-right: 160px;
+}
+
+.hero-container {
+  width: 50%;
+  height: 483px;
+  margin-top: 205.56px;
+  margin-left: 160px;
+}
+@media screen and (max-width: 428px) {
+  .hero-container {
+    margin-left: 32px;
+    margin-top: 116px;
+    max-width: 428px;
+  }
+}
+
+.hero-top-text {
+  width: 169px;
+  height: 19px;
+  color: #FF3998;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.h1 {
+  width: 620px;
+  height: 232px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 116px;
+  color: #111111;
+  margin-top: 20px;
+}
+@media screen and (max-width: 428px) {
+  .h1 {
+    margin-top: 24px;
+    width: 274px;
+    height: 116px;
+    font-size: 48px;
+    line-height: 58px;
+  }
+}
+
+.hero-paragraph {
+  width: 537px;
+  height: 60px;
+  margin-top: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+}
+@media screen and (max-width: 428px) {
+  .hero-paragraph {
+    margin-top: 24px;
+    width: 274px;
+    height: 120px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #555555;
+  }
+}
+
+.Sign-up-button {
+  margin-top: 41px;
+  width: 188px;
+  height: 75px;
+  border: 5px solid transparent;
+  -o-border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+     border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+  border-image-slice: 1;
+  background-color: white;
+}
+
+.Sign-up-text {
+  width: 76px;
+  height: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #111111;
+}
+
+.hero-wrap {
+  display: flex;
+}
+
+.image {
+  width: 50%;
+  height: 483px;
+  margin-top: 187.56px;
+}
+@media screen and (max-width: 428px) {
+  .image {
+    margin-top: 0px;
+  }
+}
+
+.hero-nft {
+  width: 680px;
+  height: 483px;
+}
+@media screen and (max-width: 428px) {
+  .hero-nft {
+    width: 328.6px;
+    height: 400px;
+  }
+}
+
+.background-img {
+  width: 100%;
+  height: 320px;
+  padding-left: 80px;
+  padding-right: 160px;
+  margin-top: 182px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.upsell-text {
+  height: 320px;
+  padding-left: 160px;
+  margin-top: 182px;
+  background-image: url(/nft\ page\ images/background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  border-radius: 20px;
+}
+@media screen and (max-width: 428px) {
+  .upsell-text {
+    margin-top: 80px;
+    padding: 0;
+    border-radius: 0px;
+    background-image: url(/nft\ page\ images/background.png);
+  }
+}
+
+.upsell-container {
+  margin-left: 160px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 160px;
+}
+@media screen and (max-width: 428px) {
+  .upsell-container {
+    width: 428px;
+    height: 326px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.h2 {
+  font-family: "Inter", sans-serif;
+  padding-top: 154px;
+  width: 620px;
+  height: 48px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+}
+@media screen and (max-width: 428px) {
+  .h2 {
+    width: 364px;
+    height: 172px;
+    margin-left: 32px;
+    margin-right: 32px;
+    padding-top: 122px;
+  }
+}
+
+.text {
+  padding-top: 60px;
+  width: 537px;
+  height: 30px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+}
+@media screen and (max-width: 428px) {
+  .text {
+    width: 364px;
+    height: 60px;
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+}
+
+.press-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-top: 120px;
+}
+@media screen and (max-width: 428px) {
+  .press-container {
+    width: 364px;
+    height: 117px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 64px;
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+}
+
+.press-image {
+  width: 132.72px;
+  height: 46.21px;
+}
+
+@media screen and (max-width: 428px) {
+  .press-image:nth-child(2) {
+    display: none;
+  }
+}
+
+.showcase-container {
+  margin-top: 120px;
+  margin-left: 160px;
+  margin-right: 160px;
+}
+@media screen and (max-width: 428px) {
+  .showcase-container {
+    margin-top: 56px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.h3 {
+  width: 620px;
+  height: 48px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+}
+@media screen and (max-width: 428px) {
+  .h3 {
+    margin-left: 32px;
+    width: 364px;
+    height: 96px;
+  }
+}
+
+.p {
+  margin-top: 24px;
+  width: 782px;
+  height: 30px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #555555;
+}
+@media screen and (max-width: 428px) {
+  .p {
+    margin-left: 32px;
+    width: 364px;
+    height: 90px;
+  }
+}
+
+.showcese-shop-container {
+  width: 290px;
+  height: 420px;
+}
+@media screen and (max-width: 428px) {
+  .showcese-shop-container {
+    margin-top: 40px;
+    margin-left: 32px;
+    margin-right: 0;
+    max-width: 428px;
+  }
+}
+
+.nft-descrition {
+  margin-top: -4px;
+  height: 140px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nft-image-first, .nft-image-second, .nft-image-third, .nft-image-fourth {
+  width: 290px;
+  height: 278px;
+}
+
+.first p:nth-child(1) {
+  width: 140px;
+  height: 30px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  padding: 24px 0 0 24px;
+  color: #FF8139;
+}
+
+.first p:nth-child(2) {
+  width: 132px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  color: #111111;
+  padding: 0 0 0 24px;
+  margin-top: 18px;
+}
+
+.first p:nth-child(3) {
+  width: 65px;
+  height: 30px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  color: #777777;
+  padding: 14px 0 24px 24px;
+  text-align: center;
+}
+
+.second {
+  text-align: end;
+}
+
+.second p:nth-child(1) {
+  width: 140px;
+  height: 30px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  padding: 24px 24px 0 0;
+  color: #777777;
+}
+
+.second p:nth-child(2) {
+  width: 140px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  color: #111111;
+  padding: 0 24px 0 0;
+  margin-top: 18px;
+}
+
+.second p:nth-child(3) {
+  width: 140px;
+  height: 30px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  color: #777777;
+  padding: 12px 24px 0 0;
+}
+
+.etherium-img {
+  height: 19px;
+  margin-right: 7px;
+}
+
+.wrapper-shop {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 56px;
+}
+@media screen and (max-width: 428px) {
+  .wrapper-shop {
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+    max-width: 428px;
+  }
+}
+
+.footer-upsell-cotainer {
+  display: flex;
+  width: 50%;
+  margin-left: 160px;
+}
+@media screen and (max-width: 428px) {
+  .footer-upsell-cotainer {
+    margin-left: 32px;
+  }
+}
+
+.text-wrap {
+  margin-top: 120px;
+}
+@media screen and (max-width: 428px) {
+  .text-wrap {
+    margin-top: 64px;
+  }
+}
+
+.first-text {
+  width: 651px;
+  height: 19px;
+  color: #FF3998;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 428px) {
+  .first-text {
+    width: 651px;
+    height: 19px;
+  }
+}
+
+.h4 {
+  margin-top: 24px;
+  width: 620px;
+  height: 68px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 68px;
+}
+@media screen and (max-width: 428px) {
+  .h4 {
+    width: 274px;
+    height: 204px;
+  }
+}
+
+.about-info {
+  margin-top: 24px;
+  width: 537px;
+  height: 60px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #555555;
+}
+@media screen and (max-width: 428px) {
+  .about-info {
+    width: 207px;
+    height: 120px;
+  }
+}
+
+.nft-green-image {
+  width: 50%;
+}
+@media screen and (max-width: 428px) {
+  .nft-green-image {
+    width: 206px;
+    height: 467px;
+  }
+}
+
+.green-image {
+  margin-left: 202px;
+  margin-top: 85px;
+}
+@media screen and (max-width: 428px) {
+  .green-image {
+    width: 206px;
+    height: 467px;
+    margin-left: -430px;
+    margin-top: 162px;
+  }
+}
+
+.breakline-top {
+  margin-top: 120px;
+  margin-left: 160px;
+  margin-right: 160px;
+  color: lightgray;
+}
+@media screen and (max-width: 428px) {
+  .breakline-top {
+    width: 428px;
+    margin-top: 92px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.breakline-bottom {
+  margin-left: 160px;
+  margin-right: 160px;
+  color: lightgray;
+}
+@media screen and (max-width: 428px) {
+  .breakline-bottom {
+    width: 428px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 57px;
+  }
+}
+
+.footer-container {
+  display: flex;
+}
+@media screen and (max-width: 428px) {
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.left-side {
+  margin-top: 120px;
+  width: 50%;
+  margin-left: 160px;
+}
+@media screen and (max-width: 428px) {
+  .left-side {
+    margin-top: 64px;
+    margin-left: 32px;
+    width: 233px;
+    height: 136px;
+  }
+}
+
+.left-side ul {
+  display: flex;
+  margin-top: 32px;
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+  list-style: none;
+}
+
+.footer-logo {
+  width: 198px;
+  height: 36px;
+}
+
+.left-text {
+  margin-top: 30px;
+  width: 233px;
+  height: 20px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  color: #555555;
+}
+
+.right-side {
+  display: flex;
+  width: 590px;
+  height: 139px;
+  -moz-column-gap: 106px;
+       column-gap: 106px;
+  margin-top: 120px;
+  margin-right: 160px;
+}
+@media screen and (max-width: 428px) {
+  .right-side {
+    width: 260px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 64px;
+    margin-left: 34px;
+  }
+}
+
+.about, .nft, .contact, .social {
+  width: 59px;
+  height: 92px;
+  list-style: none;
+  line-height: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #555555;
+}
+
+.information-footer {
+  padding-bottom: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #555555;
+}
+
+.copyright-text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 191px;
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-bottom: 71px;
+}
+@media screen and (max-width: 428px) {
+  .copyright-text {
+    width: 286px;
+    height: 20px;
+    margin-left: 32px;
+    margin-right: 0;
+    margin-top: 0;
+  }
+}
+
+.copyrights, .launching {
+  width: 286px;
+  height: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  color: #999999;
+}
+@media screen and (max-width: 428px) {
+  .copyrights, .launching {
+    width: 286px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .launching {
+    display: none;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=style.css.map */
