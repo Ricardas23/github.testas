@@ -34,10 +34,26 @@
     color: #FF3998 ;
   }
   
+  .navbar-second{
+    @include responsive.screen-sm {
+      width: 24px;
+      height: 4px;
+    }
+  }
+  .dropdown-icon{
+    @include responsive.screen-sm {
+      width: 24px;
+      height: 4px;
+    }
+  }
   
   .header-container {
     display: flex;
     justify-content: space-between;
+
+    @include responsive.screen-sm {
+      width: 428px;
+    }
   }
   
   

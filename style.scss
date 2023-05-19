@@ -4,6 +4,7 @@
 @use 'press';
 @use 'footer-upsell';
 @use 'footer';
+@use 'responsive';
 *,
 *::before,
 *::after {
@@ -14,3 +15,4 @@
     margin: 0;
     padding: 0;
 }
+

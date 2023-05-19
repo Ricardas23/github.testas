@@ -8,6 +8,7 @@
 
     @include responsive.screen-sm {
         margin-left: 32px;
+        width: 428px;
          }
     
 }
@@ -17,6 +18,7 @@
 
     @include responsive.screen-sm {
         margin-top: 64px;
+        overflow: hidden;
          }
 }
 
@@ -86,7 +88,7 @@
     @include responsive.screen-sm {
         width: 206px;
         height: 467px;
-        margin-left: -430px;
+        margin-left: -100px;
         margin-top: 162px;
          }
 }
@@ -116,4 +118,11 @@
         margin-right: 0;
         margin-top: 57px;
          }
+}
+
+.wrapper{
+     @include responsive.screen-sm {
+        width: 428px;
+        overflow: hidden;
+     }
 }
