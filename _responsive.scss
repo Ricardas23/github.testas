@@ -4,8 +4,8 @@
     }
   }
   
-  @mixin screen-md {
-    @media screen and (min-width: 500px) {
+  @mixin screen-sm-min {
+    @media screen and (min-width: 428px) {
       @content;
     }
   }

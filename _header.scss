@@ -34,32 +34,40 @@
     color: #FF3998 ;
   }
   
-  .navbar-second{
-    @include responsive.screen-sm {
-      width: 24px;
-      height: 4px;
-    }
-  }
-  .dropdown-icon{
-    @include responsive.screen-sm {
-      width: 24px;
-      height: 4px;
-    }
-  }
-  
   .header-container {
     display: flex;
     justify-content: space-between;
 
     @include responsive.screen-sm {
       width: 428px;
+      
     }
   }
-  
-  
   
   .navigation-bar {
     margin-top: 78.22px;
     margin-right: 160px;
+    @include responsive.screen-sm {
+      margin-top: 41px;
+      margin-right: 42px;
+      
+    }
   }
   
+  .second-navbar {
+    @include responsive.screen-sm {
+      width: 24px;
+      height: 22px;
+      margin-left: 118px;
+      list-style: none;
+    }
+    @include responsive.screen-sm-min {
+      display: none;
+    }
+  }
+
+  .rectangle{
+    width: 24px;
+    height: 22px;
+    
+  }
